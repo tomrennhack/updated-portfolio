@@ -28,7 +28,7 @@
     ===============================================================  */
 
     #header-name {
-        color: #eac67a;
+        color: #984b43;
     }
 
     #my-links-icons {
@@ -67,23 +67,30 @@
 
     #page-title {
         color: #984b43;
+    }
 
+    #bottom-item {
+        margin-bottom: 80px;
     }
 
 /*  ===============================================================
     style the about me page 
     ===============================================================  */
 
-    #profile-pic {
-        height: 220px;
-        border: solid 2px #a9a9a9;
+    #page-intro {
+        margin-bottom: 20px;
     }
 
-    #about-me-titles {
-        color: #ffffff;
-        background-color: #984b43;
+    #page-titles {
+        color: #984b43;
+        /* background-color: #984b43; */
         padding: 10px;
-        border-radius: 10px;
+        margin-top: 15px;
+        border-radius: 5px;
+        border-right: solid 2px #984b43;
+        border-bottom: solid 2px #984b43;
+        border-top: dotted 1px #233237;
+        border-left: dotted 1px #233237;
         text-align: center;
     }
 
@@ -102,9 +109,36 @@
     ===============================================================  */
 
     .portfolio-item {
-        margin: 30px;
-        background-color: #ffffff;
+        margin-top: 30px;
+        /* background-color: #ffffff; */
         padding: 10px;
+        border-radius: 5px;
+        border-right: solid 2px #984b43;
+        border-bottom: solid 2px #984b43;
+        border-top: dotted 1px #233237;
+        border-left: dotted 1px #233237;        
+    }
+
+    .portfolio-item-last {
+        margin-top: 30px;
+        margin-bottom: 80px;
+        width: 300px;
+        /* background-color: #ffffff; */
+        padding: 10px;
+        border-radius: 5px;
+        border-right: solid 2px #984b43;
+        border-bottom: solid 2px #984b43;
+        border-top: dotted 1px #233237;
+        border-left: dotted 1px #233237;        
+    }
+
+    .portfolio-pic {
+        width: 450px;
+        height: 100%;
+        object-fit: cover;
+        object-position: 0 0;
+        /* border-radius: 5px; */
+        border: dotted 1px #233237;
     }
     
     /* style the footer */
@@ -140,6 +174,12 @@
         #about-me-text {
             font-size: .8em;
         }
+
+        .portfolio-pic {
+            width: 560px;
+            margin: auto;
+        }
+
     }
 
     /* set for screens 640px wide or smaller */
@@ -153,6 +193,11 @@
         }
         .focus-area {
             width: 500px;
+        }
+
+        .portfolio-pic {
+            width: 470px;
+            margin: auto;
         }
 
     }
